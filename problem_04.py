@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Vinícius Moraes da Silva
 # UAG00098
 # Problem Set 1 - Problem 4
 # Description:
@@ -30,7 +30,10 @@ Exemplo:
 
 
 def main():
-    pass # your code here
+    raio = float(input("Digite o valor do raio: "))
+    π = 3.14159
+    formula = π * raio**2
+    print(f"Área: {formula}m")
 
 if __name__ == '__main__':
     main()

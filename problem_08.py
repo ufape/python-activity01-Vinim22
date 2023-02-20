@@ -2,7 +2,7 @@
 
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Vinícius Moraes da Silva
 # UAG00098
 # Problem Set 1 - Problem 7
 # Description:
@@ -32,7 +32,14 @@ Detectamos 4 valores positivos.
 
 
 def main():
-    pass # your code here
+  positivos = 0  
+
+  for i in range(6):
+    valor = float(input(f"Valor ({i+1}/6): "))  
+    if valor > 0:  
+        positivos += 1  
+
+  print(f"Detectamos {positivos} valores positivos.")
 
 
 if __name__ == '__main__':
